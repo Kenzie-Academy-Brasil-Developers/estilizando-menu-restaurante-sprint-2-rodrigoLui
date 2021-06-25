@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
 
 /* Use the 'Oswald' font family at 14px throughout the body of the document. */
 
@@ -17,6 +16,13 @@ nav {
 
 /* Use the 'Bungee Inline' font at 46px and lighter weight for the restaurant name. */
 
+h1{
+    text-transform: uppercase;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
 #menu {
     columns: 420px 2; 
     column-gap: 60px;
@@ -28,12 +34,6 @@ section {
 }
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
-
-h1{
-    text-transform: uppercase;
-    font-family: 'Big Shoulders Stencil Display', cursive;
-    font-size: 68.6px;
-}
 
 h2 {
     margin-top: 0;
